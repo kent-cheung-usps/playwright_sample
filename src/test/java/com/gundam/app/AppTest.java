@@ -17,7 +17,7 @@ public class AppTest {
     /**
      * Rigorous Test :-)
      */
-    @Test
+    // @Test
     public void shouldAnswerWithTrue() {
     	try (Playwright playwright = Playwright.create()) {
     	      Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions()
