@@ -28,7 +28,7 @@ public class App {
             assertThat(page.getByRole(AriaRole.HEADING, new Page.GetByRoleOptions().setName("Create Your USPS.com Business"))).isVisible();
             assertThat(page.getByText("With a business account, you")).isVisible();
 
-            Thread.sleep(10000);
+            Thread.sleep(60000);
                         
             String scriptPath = "src/main/resources/extractValidationLink.py";
             // Check if the file exists
